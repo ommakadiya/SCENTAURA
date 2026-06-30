@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ScentAura</title>
+    <link rel="stylesheet" href="components/css/index.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="components/css/contact.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.php"><img src="Components/Logo/logo.png" alt="ScentAura"></a>
+        </div>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li>
+                <input type="text" placeholder="Search products...">
+                <input type="button" value="Search">
+            </li>
+            <li class="profile-dropdown">
+                <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+                <ul class="profile-menu">
+                    <li><a href="login.php">Login</a></li>
+                </ul>
+            </li>            
+            <li class="cart">
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <p>Have a question? We're here to help! Fill out the form below, and we'll get back to you shortly.</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="👤 Your Name" required>
+            <input type="email" name="email" placeholder="📧 Your Email" required>
+            <textarea name="message" rows="5" placeholder="💬 Your Message" required></textarea>
+            <button type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        </form>
+    </section>
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3><i class="fa-solid fa-truck"></i> How can I track my order?</h3>
+            <p>Track your order in the 'Order History' section of your account for real-time updates.</p>
+        </div>
+        <div class="faq-item">
+            <h3><i class="fa-solid fa-credit-card"></i> What payment methods do you accept?</h3>
+            <p>We accept PayPal, all major credit/debit cards, and UPI payments for your convenience.</p>
+        </div>
+        <div class="faq-item">
+            <h3><i class="fa-solid fa-undo"></i> Can I return a product?</h3>
+            <p>Absolutely! Enjoy a hassle-free 7-day return policy on all unused items in their original packaging.</p>
+        </div>
+        <div class="faq-item">
+            <h3><i class="fa-solid fa-headset"></i> How do I contact customer support?</h3>
+            <p>Reach us anytime at scentaura@gmail.com or call +91 9173064737.</p>
+        </div>
+        <div class="faq-item">
+            <h3><i class="fa-solid fa-gift"></i> Do you offer gift wrapping?</h3>
+            <p>Yes! Add gift wrapping at checkout for a beautifully wrapped package.</p>
+        </div>
+    </section>
+
+    <section class="visit-us">
+        <h2>Visit Our Store</h2>
+        <p>Come experience our fragrances in person at our flagship store.</p>
+        <p><i class="fa-solid fa-map-marker-alt"></i> 123 Fragrance Ave, Perfume City, PC 45678</p>
+        <p><i class="fa-solid fa-clock"></i> Open: Mon-Sat 10AM - 8PM</p>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About ScentAura</h3>
+                <p>
+                    ScentAura brings you premium fragrances that blend luxury and sophistication.
+                    Elevate your senses with our exclusive collection of perfumes.
+                </p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 <span>ScentAura</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
